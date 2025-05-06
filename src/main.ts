@@ -27,7 +27,7 @@ const config: Phaser.Types.Core.GameConfig = {
 // Create the game instance
 const game = new Phaser.Game(config)
 
-// Keep Farcade SDK initialization if needed, but separate from CRT
+// Initialize Farcade SDK
 game.events.once("ready", () => {
   initializeFarcadeSDK(game)
 })
