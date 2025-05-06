@@ -1,5 +1,5 @@
 /**
- * Shared type definitions and interfaces for Super Fleet Command.
+ * Shared type definitions and interfaces
  */
 declare global {
   interface Window {
