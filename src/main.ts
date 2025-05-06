@@ -1,0 +1,33 @@
+import { GameScene } from "./scenes/GameScene"
+import { initializeFarcadeSDK } from "./utils/FarcadeUtils"
+import GameSettings from "./config/GameSettings"
+
+const canvas = document.getElementById("gameCanvas") as HTMLCanvasElement
+
+// Game configuration
+const config: Phaser.Types.Core.GameConfig = {
+  type: Phaser.WEBGL, // Using WebGL for shader support
+  width: GameSettings.canvas.width,
+  height: GameSettings.canvas.height,
+  canvas: canvas,
+  backgroundColor: "#111111",
+  scene: [GameScene],
+  physics: {
+    default: "arcade",
+  },
+  // Target frame rate
+  fps: {
+    target: 60,
+  },
+  // Additional WebGL settings
+  pixelArt: false,
+  antialias: true,
+}
+
+// Create the game instance
+const game = new Phaser.Game(config)
+
+// Keep Farcade SDK initialization if needed, but separate from CRT
+game.events.once("ready", () => {
+  initializeFarcadeSDK(game)
+})

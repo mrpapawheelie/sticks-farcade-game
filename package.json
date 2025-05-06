@@ -1,0 +1,29 @@
+{
+  "name": "GAME_NAME",
+  "version": "1.0.0",
+  "description": "GAME_NAME game for Farcade platform",
+  "type": "module",
+  "scripts": {
+    "dev": "npx qrcode-terminal \"$(node scripts/get-ip.js)\" --small && vite --host --port 3000",
+    "preview": "vite preview",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "game",
+    "phaser",
+    "farcade"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "cheerio": "^1.0.0",
+    "esbuild": "^0.20.2",
+    "qrcode-terminal": "^0.12.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.3"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  }
+}
