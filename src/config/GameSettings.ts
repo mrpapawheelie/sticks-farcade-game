@@ -7,8 +7,8 @@ export const GameSettings = {
   debug: true,
 
   canvas: {
-    width: 500,
-    height: 800,
+    width: 1000,
+    height: 1600,
   },
 }
 
