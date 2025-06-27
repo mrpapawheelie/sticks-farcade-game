@@ -2,6 +2,9 @@
 
 # Sticks
 
+> **Note:** This project was originally forked from [InsideTheSim/farcade-starter-ts-phaser](https://github.com/InsideTheSim/farcade-starter-ts-phaser). 
+> If you want to build a brand new Farcade game from scratch, fork that repo. If you want to remix or improve Sticks, fork this repo!
+
 ## 🎮 Play the Live Game
 
 Play instantly on Farcade:
