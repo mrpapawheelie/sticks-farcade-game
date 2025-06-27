@@ -1,4 +1,27 @@
+# <p align="center"><img src="dist/sticks.webp" alt="Sticks Game Icon" width="120" /></p>
+
 # Farcade Game Template - Phaser.js + TypeScript
+
+## 🎮 Play the Live Game
+
+Play the latest version instantly on Farcade:
+[https://app.farcade.ai?gameId=qLQRPw4PFA3Y](https://app.farcade.ai?gameId=qLQRPw4PFA3Y)
+
+### 📊 Game Stats (as one of the top games on Farcade)
+- **Plays:** 68,537 total plays
+- **Users:** 6,024 unique users
+- **Time:** 320 hours played
+- **Rating:** 4.2 (85 ratings)
+
+---
+
+## 🚀 Remix This Game!
+
+- **Fork this repo** to start your own version.
+- **Remix the code**: Change art, rules, or add your own features.
+- **Upload to Farcade**: Build and copy your `dist/index.html` to [Farcade](https://app.farcade.ai) to publish your remix.
+
+---
 
 ## Overview
 
